@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <div>
-      App
+      <span className="text-red-500">App</span>
     </div>
   )
 }
