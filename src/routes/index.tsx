@@ -1,5 +1,6 @@
-import RootLayout from "@/components/ui/root-layout";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import RootLayout from "@/components/ui/root-layout";
+import NotFound from "@/pages/not-found";
 
 const router = createBrowserRouter([
 	{
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
 			{ path: "/novas-receitas", element: <h1>Novas Receitas</h1> },
 			{ path: "/receitas-favoritas", element: <h1>Receitas Favoritas</h1> },
 		],
+	},
+	{
+		path: "*",
+		element: <NotFound />,
 	},
 ]);
 
