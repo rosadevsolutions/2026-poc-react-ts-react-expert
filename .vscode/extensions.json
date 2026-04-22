@@ -2,6 +2,9 @@
   "recommendations": [
     "editorconfig.editorconfig",
     "biomejs.biome-vscode",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "burkeholland.simple-react-snippets",
+    "dsznajder.es7-react-js-snippets",
+    "oavbls.pretty-ts-errors",
   ]
 }
